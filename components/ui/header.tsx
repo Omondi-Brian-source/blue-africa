@@ -11,37 +11,53 @@ import {
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
+import Link from "next/link";
 
 const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, link: string) => {
-  e.preventDefault();
-  const element = document.querySelector(link);
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
+  if (link.startsWith('#')) {
+    e.preventDefault();
+    const element = document.querySelector(link);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   }
 };
 
 type NavItem = {
   name: string;
   link: string;
+  isExternal?: boolean;
 };
 
 export function Header() {
   const navItems: NavItem[] = [
     {
+      name: "News",
+      link: "/news",
+    },
+    {
+      name: "Services",
+      link: "/services/blue-metrics",
+    },
+    {
+      name: "Insights",
+      link: "/insights",
+    },
+    {
+      name: "Research",
+      link: "/research",
+    },
+    {
+      name: "About",
+      link: "/about",
+    },
+    {
       name: "Impact",
-      link: "#impact",
+      link: "/impact",
     },
     {
-      name: "About us",
-      link: "#about",
-    },
-    {
-      name: "Who we serve",
-      link: "#who-we-serve",
-    },
-    {
-      name: "Vision 2030",
-      link: "#vision-2030",
+      name: "Careers",
+      link: "/careers",
     },
   ];
 

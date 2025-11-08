@@ -19,6 +19,11 @@ import { CTASection } from "@/components/cta-section";
 import { CarouselGallery } from "@/components/ui/carousel-gallery";
 import { useRef, useEffect } from "react";
 import HeroSection from "@/components/hero-section";
+import { NewsGrid } from "@/components/ui/news-grid";
+import { MissionBanner } from "@/components/ui/mission-banner";
+import { EconomicTargetBanner } from "@/components/ui/economic-target-banner";
+import { getLatestNews } from "@/data/news";
+import { economicTarget, missionTarget } from "@/data/metrics";
 
 const impactData = {
   title: "Our Blue Economy Impact",
@@ -78,6 +83,7 @@ const impactData = {
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const latestNews = getLatestNews(6);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -102,9 +108,9 @@ export default function Home() {
               className="object-cover w-full h-full"
               poster="/images/video-poster.jpg"
             >
-              <source 
-                src="https://9w7tupemt2.ufs.sh/f/6NT7Vh3m4UA3NyrceIOfbaR4SDedsFTr0Pkcfq9Kzj7XHtgi" 
-                type="video/mp4" 
+              <source
+                src="https://9w7tupemt2.ufs.sh/f/6NT7Vh3m4UA3NyrceIOfbaR4SDedsFTr0Pkcfq9Kzj7XHtgi"
+                type="video/mp4"
               />
             </video>
           </div>
@@ -113,30 +119,41 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Original Hero Section - can be removed if redundant */}
-        <section className="relative w-full bg-gradient-to-b from-blue-50 to-white px-4 py-24 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-7xl text-center">
-            <h1 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
-              Blue Capital
-              <span className="text-blue-600"> Ocean Innovation</span>
-            </h1>
-            <p className="mx-auto mb-10 max-w-2xl text-lg text-gray-600">
-              We invest in sustainable ocean resources and coastal communities across Africa, 
-              driving economic growth through innovative marine projects, sustainable fishing practices, 
-              and ecosystem conservation while ensuring social equity and environmental protection.
-            </p>
-            <div className="flex justify-center gap-4">
+        {/* Mission Banner */}
+        <section className="w-full bg-gradient-to-b from-blue-50 to-white px-4 py-16 sm:px-6 lg:px-8">
+          <div className="container mx-auto">
+            <MissionBanner
+              value={missionTarget.value}
+              description={missionTarget.description}
+            />
+          </div>
+        </section>
+
+        {/* Economic Target Banner */}
+        <section className="w-full bg-white px-4 py-16 sm:px-6 lg:px-8">
+          <div className="container mx-auto">
+            <EconomicTargetBanner target={economicTarget} />
+          </div>
+        </section>
+
+        {/* Latest News Section */}
+        <section className="w-full bg-gray-50 px-4 py-24 sm:px-6 lg:px-8">
+          <div className="container mx-auto">
+            <div className="mb-12 text-center">
+              <h2 className="mb-4 text-4xl font-bold text-gray-900">
+                Latest News
+              </h2>
+              <p className="mx-auto max-w-2xl text-lg text-gray-600">
+                Stay updated with our recent announcements, partnerships, and achievements
+              </p>
+            </div>
+            <NewsGrid articles={latestNews} columns={3} />
+            <div className="mt-12 text-center">
               <Link
-                href="#contact"
-                className="rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                href="/news"
+                className="inline-block rounded-lg bg-blue-600 px-8 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500"
               >
-                Partner With Us
-              </Link>
-              <Link
-                href="#projects"
-                className="rounded-lg border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-50"
-              >
-                Explore Projects
+                View All News
               </Link>
             </div>
           </div>
