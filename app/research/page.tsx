@@ -13,7 +13,7 @@ export default function ResearchPage() {
               RESEARCH & REPORTS
             </h1>
             <p className="text-xl text-muted-foreground">
-              Blue Capital's portfolio of blue economic intelligence and advisory reports provides its global audience with analysis and solutions to understand and take advantage of new opportunities in markets that are poised for growth and offer considerable return on investment
+              Blue Capital&apos;s portfolio of blue economic intelligence and advisory reports provides its global audience with analysis and solutions to understand and take advantage of new opportunities in markets that are poised for growth and offer considerable return on investment
             </p>
           </div>
         </div>
@@ -57,14 +57,14 @@ export default function ResearchPage() {
               Our Blue Economic Intelligence Reports
             </h2>
             <p className="text-lg text-muted-foreground">
-              Our thought leadership anticipates what's next. Our quarterly briefings keep investors and companies one step ahead, translating trends into strategic opportunities.
+              Our thought leadership anticipates what&apos;s next. Our quarterly briefings keep investors and companies one step ahead, translating trends into strategic opportunities.
             </p>
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2">
             <div className="rounded-2xl bg-card p-8 shadow-xl">
               <h3 className="mb-4 text-2xl font-bold text-foreground">
-                Understanding Tomorrow's Growth Markets, Today
+                Understanding Tomorrow&apos;s Growth Markets, Today
               </h3>
               <p className="mb-6 leading-relaxed text-muted-foreground">
                 We pride ourselves on producing thought-leadership that truly challenges the way you look at emerging markets. Blue Capital helps you to understand what is happening now, and where countries can realistically be tomorrow to make the information that they need to understand and use on a single blue economy platform.
@@ -79,7 +79,7 @@ export default function ResearchPage() {
                 Reports
               </h3>
               <p className="leading-relaxed text-muted-foreground">
-                OBO's portfolio of economic intelligence and advisory reports provides our global audience with in-depth analysis on growth strategies, giving decision-makers the information they need to understand and use on a sustainable, and profitable blue economy platform.
+                OBO&apos;s portfolio of economic intelligence and advisory reports provides our global audience with in-depth analysis on growth strategies, giving decision-makers the information they need to understand and use on a sustainable, and profitable blue economy platform.
               </p>
             </div>
           </div>

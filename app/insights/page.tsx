@@ -30,7 +30,7 @@ export default function InsightsPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-5xl rounded-2xl bg-gradient-to-r from-blue-50 to-cyan-50 p-8 dark:from-blue-950/20 dark:to-cyan-950/20 lg:p-12">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Join our growing list of decision-makers with exclusive interviews, in-depth analysis and comparative research spotlighting synergies and competitive advantages. Our sector overviews highlight trends, opportunities and challenges. Our research is suitable for a wide range of decision-makers and professionals, including executives, entrepreneurs, government officials, consultants and diplomats. Journalists and expatriates can also benefit from Blue Capital's research, helping them inform their wider communities.
+              Join our growing list of decision-makers with exclusive interviews, in-depth analysis and comparative research spotlighting synergies and competitive advantages. Our sector overviews highlight trends, opportunities and challenges. Our research is suitable for a wide range of decision-makers and professionals, including executives, entrepreneurs, government officials, consultants and diplomats. Journalists and expatriates can also benefit from Blue Capital&apos;s research, helping them inform their wider communities.
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function InsightsPage() {
               Featured Interviews
             </h2>
             <p className="text-lg text-muted-foreground">
-              Conversations with industry leaders shaping the future of Africa's blue economy
+              Conversations with industry leaders shaping the future of Africa&apos;s blue economy
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export default function InsightsPage() {
             </h2>
             <div className="space-y-6 text-muted-foreground">
               <p className="leading-relaxed">
-                Our business is to produce compelling, longstanding record in risk analysis with deep domain expertise and global coverage. Blue Capital's trusted research and deliverables signals long term potential for blue economic growth opportunities.
+                Our business is to produce compelling, longstanding record in risk analysis with deep domain expertise and global coverage. Blue Capital&apos;s trusted research and deliverables signals long term potential for blue economic growth opportunities.
               </p>
               <p className="leading-relaxed">
                 Blue Capital covers dynamic, emerging market economies that are positioned for attractive Blue economy investment returns over the next 10 to 15 years. Regions and sectors provided by Blue Capital helps leaders navigate the opportunities and risks in these high-growth-potential countries.

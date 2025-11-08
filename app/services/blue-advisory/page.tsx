@@ -27,7 +27,7 @@ export default function BlueAdvisoryPage() {
           <div className="mb-16 grid gap-12 lg:grid-cols-2">
             <div>
               <h2 className="mb-6 text-4xl font-bold text-foreground">
-                Shaping Tomorrow's Blue Finance, Together
+                Shaping Tomorrow&apos;s Blue Finance, Together
               </h2>
               <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
                 Blue Advisory combines cutting-edge financial structuring, transaction leadership, and strategic consultancy that powers sustainable outcomes. We are pioneers in aligning markets and entrepreneurs with actionable blended finance models, and structured investment solutions that drive both profitability and positive impact.
@@ -39,7 +39,7 @@ export default function BlueAdvisoryPage() {
                 Our Approach
               </h3>
               <p className="leading-relaxed text-muted-foreground">
-                By fusing local precision with global standards, it delivers actionable intelligence tailored to your needs. Whether you're an entrepreneur, investor, or business leader, we empower you to navigate complex markets with confidence and unlock sustainable ocean value.
+                By fusing local precision with global standards, it delivers actionable intelligence tailored to your needs. Whether you&apos;re an entrepreneur, investor, or business leader, we empower you to navigate complex markets with confidence and unlock sustainable ocean value.
               </p>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function BlueAdvisoryPage() {
               </h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• Design and issuance of innovative bonds, blended finance models, and structured investment vehicles</li>
-                <li>• Pioneer Africa's first regenerative ocean conservation model, monetizing marine biodiversity through conservation finance instruments</li>
+                <li>• Pioneer Africa&apos;s first regenerative ocean conservation model, monetizing marine biodiversity through conservation finance instruments</li>
                 <li>• Biodiversity credits via structured products</li>
                 <li>• Genomic asset tokenizing</li>
               </ul>

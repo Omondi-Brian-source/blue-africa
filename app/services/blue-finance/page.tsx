@@ -11,7 +11,7 @@ export default function BlueFinancePage() {
               Blue Finance & Innovation
             </h1>
             <p className="text-xl text-muted-foreground">
-              Structuring innovative financial solutions for Africa's blue economy transformation
+              Structuring innovative financial solutions for Africa&apos;s blue economy transformation
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function BlueFinancePage() {
               Pioneering Blue Finance Solutions
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Blue Finance combines cutting-edge financial structuring, blended finance models, and innovative investment vehicles to unlock sustainable value in Africa's blue economy. We bridge the gap between impact and returns, creating financial solutions that drive both profitability and positive environmental outcomes.
+              Blue Finance combines cutting-edge financial structuring, blended finance models, and innovative investment vehicles to unlock sustainable value in Africa&apos;s blue economy. We bridge the gap between impact and returns, creating financial solutions that drive both profitability and positive environmental outcomes.
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function BlueFinancePage() {
                 Blue Bonds & Green Instruments
               </h3>
               <p className="leading-relaxed text-muted-foreground">
-                Pioneer Africa's first regenerative ocean conservation bonds and green financial instruments that monetize marine biodiversity through innovative conservation finance.
+                Pioneer Africa&apos;s first regenerative ocean conservation bonds and green financial instruments that monetize marine biodiversity through innovative conservation finance.
               </p>
             </div>
 

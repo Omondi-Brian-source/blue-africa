@@ -76,7 +76,7 @@ export default function ImpactPage() {
               Impact Stories
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Real-world examples of how we're creating sustainable value across Africa
+              Real-world examples of how we&apos;re creating sustainable value across Africa
             </p>
           </div>
 

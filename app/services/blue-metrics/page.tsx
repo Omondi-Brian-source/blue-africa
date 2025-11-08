@@ -11,7 +11,7 @@ export default function BlueMetricsPage() {
               Blue Metrics
             </h1>
             <p className="text-xl text-muted-foreground">
-              Africa's No.1 AI-Powered Blue Economy Intelligence Engine
+              Africa&apos;s No.1 AI-Powered Blue Economy Intelligence Engine
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function BlueMetricsPage() {
               Highly curated data for blue capital exploration and investments around Africa and beyond.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              The Africa Blue Economy Intelligence Index (ABEII) empowers governments, blue leaders, and investors with actionable intelligence through integrated data platforms, tailored research, multimedia insights, and immersive experiences. With recognition of excellence—driving sustainable investment and transformative growth across Africa's blue economy.
+              The Africa Blue Economy Intelligence Index (ABEII) empowers governments, blue leaders, and investors with actionable intelligence through integrated data platforms, tailored research, multimedia insights, and immersive experiences. With recognition of excellence—driving sustainable investment and transformative growth across Africa&apos;s blue economy.
             </p>
           </div>
 
@@ -86,7 +86,7 @@ export default function BlueMetricsPage() {
                 With recognition of the power of global indices, ABEII positions Africa not as a participant—but as a global leader in sustainable ocean finance and innovation.
               </h3>
               <p className="text-sm text-muted-foreground">
-                Leading the transformation of Africa's blue economy
+                Leading the transformation of Africa&apos;s blue economy
               </p>
             </div>
           </div>

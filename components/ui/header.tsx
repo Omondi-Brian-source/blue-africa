@@ -11,7 +11,6 @@ import {
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
-import Link from "next/link";
 
 const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, link: string) => {
   if (link.startsWith('#')) {

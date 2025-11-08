@@ -13,7 +13,7 @@ export default function AboutPage() {
               WHY DO WE EXIST - ABOUT US
             </h1>
             <p className="text-xl text-muted-foreground">
-              Leading Africa's blue economy transformation through innovative financial solutions
+              Leading Africa&apos;s blue economy transformation through innovative financial solutions
             </p>
           </div>
         </div>

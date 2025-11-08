@@ -12,7 +12,7 @@ export default function CareersPage() {
               CAREERS - JOBS & OPPORTUNITIES
             </h1>
             <p className="text-xl text-muted-foreground">
-              Join our mission to transform Africa's blue economy
+              Join our mission to transform Africa&apos;s blue economy
             </p>
           </div>
         </div>
